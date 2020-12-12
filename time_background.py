@@ -13,11 +13,11 @@ def change_background(file_name):
 
 def main():
     old = None
-    h = 0
 
     while 1:
-        #date_now = datetime.datetime.now()
-        
+        date_now = datetime.datetime.now()
+        h = date_now.hour
+
         if (5 <= h < 8) and (old != "5-8"):
             old = "5-8"
             change_background(
@@ -62,7 +62,7 @@ def main():
         
         else:
             pass
-        h += 1
+
         time.sleep(1)
 
 
