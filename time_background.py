@@ -63,7 +63,7 @@ def main():
         else:
             pass
 
-        time.sleep(1)
+        time.sleep(900)
 
 
 
